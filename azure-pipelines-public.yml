@@ -85,6 +85,12 @@ stages:
 
   - template: eng/e2e-test.yml
     parameters:
+      name: E2E_tvOS_Devices
+      displayName: Apple - tvOS devices
+      testProject: $(Build.SourcesDirectory)/tests/integration-tests/Apple/Device.tvOS.Tests.proj
+
+  - template: eng/e2e-test.yml
+    parameters:
       name: E2E_Apple_Device_Commands
       displayName: Apple - Device Commands
       testProject: $(Build.SourcesDirectory)/tests/integration-tests/Apple/Device.Commands.Tests.proj
