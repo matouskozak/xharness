@@ -5,7 +5,6 @@
   </ItemGroup>
 
   <PropertyGroup>
-    <XHarnessAppleProvisioningProfileUrl>https://netcorenativeassets.blob.core.windows.net/resource-packages/external/macos/signing-test/NET_Apple_Development_{PLATFORM}.mobileprovision</XHarnessAppleProvisioningProfileUrl>
     <TestAppBundleName>System.Buffers.Tests</TestAppBundleName>
     <XHarnessTestAppBundleUrl>$(AssetsBaseUri)/ios/test-app-new/ios-device/$(TestAppBundleName).app.zip</XHarnessTestAppBundleUrl>
     <TestAppDestinationDir>$(ArtifactsTmpDir)test-app-new\ios-device</TestAppDestinationDir>
