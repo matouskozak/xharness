@@ -14,4 +14,8 @@
     </XHarnessAppleProject>
   </ItemGroup>
 
+  <PropertyGroup>
+    <XHarnessAppleProvisioningProfileUrl>https://netcorenativeassets.blob.core.windows.net/resource-packages/external/macos/signing-test/NET_Apple_Development_{PLATFORM}.mobileprovision</XHarnessAppleProvisioningProfileUrl>
+  </PropertyGroup>
+
 </Project>
